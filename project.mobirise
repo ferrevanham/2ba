@@ -43,7 +43,9 @@
     ],
     "uniqCompNum": 3,
     "versionPublish": "4.9.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "true"
   },
   "pages": {
     "index.html": {
@@ -485,10 +487,12 @@
               "background-color": "@bg-value"
             },
             "H1": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#46ff00"
+              "color": "#46ff00",
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn B": {
               "color": "#ffffff"
